@@ -1,0 +1,64 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc} 
+\usepackage[british]{babel} 
+\usepackage[babel=true]{csquotes}
+\usepackage{nccrules}
+\usepackage{fullpage}
+
+\begin{document}
+
+%\addtolength{\textwidth}{-0.1cm}
+\pagestyle{empty}
+
+\newlength{\annee}
+\settowidth{\annee}{abcdefghijklmnopqr}
+
+\newlength{\texte}
+\setlength{\texte}{\textwidth} \addtolength{\texte}{-\annee} 
+	\addtolength{\texte}{-2\tabcolsep}
+
+\noindent \textbf{{\large Benjamin MARCONNET}} \\
+Rue Robert-de-Traz 1 \\
+1206 Geneva \\
+Switzerland \\
+benjamin@marconnet.fr
+
+\vspace{0.15cm}
+
+\subsection*{Employment and experiences}
+\noindent \begin{tabular}{@{}p{\annee}p{\texte}@{}}
+Since 09.2018 & Software engineer (and scrum master) at MSC, shipping company, in Geneva (Switzerland), working on web and desktop applications made in C\#, .NET and Delphi in the Financial Analysis team  \\\\
+07.2016 - 07.2018 & Software engineer at Dialog Insight, Internet marketing service, in Quebec City (Canada), working on the company's marketing web application made in C\# and .NET \\\\
+2015 & One year internship at TDK-EPCOS in the Greater New York Area (US) \hbox{involving} the improvement of the company's web portal, using C\# and .NET \\\\
+2010 - 2015 & Internships at Novartis Pharma AG in Basel (Switzerland) involving the improvement of a website using PHP and at the University of Portsmouth (England), working on the management and the processing of DNA data in Perl
+\end{tabular}
+
+\subsection*{Education}
+\noindent \begin{tabular}{@{}p{\annee}p{\texte}@{}}
+2012 - 2015 & French Master's Degree, with a Software \hbox{Engineering} \hbox{specialisation}, at the Université de Technologie de \hbox{Belfort-Montbéliard}, located in Belfort (France) \\ \\
+2010 - 2012 & University Diploma of Technology in Computer Science, at the \hbox{Institut} Universitaire de Technologie de Belfort-Montbéliard, \hbox{located} in Belfort (France) 
+
+\end{tabular}
+
+\subsection*{Skills}
+\noindent \begin{tabular}{@{}p{\annee}p{\texte}@{}}
+
+Technologies &
+C\#, .NET Framework (Core MVC), JavaScript (TypeScript) \\ \\
+
+Databases &
+Microsoft SQL Server \\ \\
+
+Tools &
+Azure DevOps (boards, build and release pipelines, test plans, artifacts, etc.) \\ \\
+
+Teamwork &
+Agile methods (estimation, user stories, test cases, planning, sprint/scrum, retrospective) \par
+Source code management (Git) \\ \\
+
+Linguistic &
+French, proficient in English
+
+\end{tabular}
+
+\end{document}
